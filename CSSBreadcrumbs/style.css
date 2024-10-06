@@ -1,0 +1,28 @@
+body {
+  max-width: 1920px;
+  margin: auto;
+  background: white;
+  padding: 10px;  font-family: 'Raleway', sans-serif;
+  float: left;
+}
+.breadcrumb > li {
+  display: inline
+  
+  }
+  
+  .breadcrumb li+li::before {
+    padding: 10px;
+      content: ">";
+  
+  
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+  
+  }
+  
+  .breadcrumb a:hover {
+    color:red;
+  
+  }
